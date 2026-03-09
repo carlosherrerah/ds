@@ -1,0 +1,6 @@
+# De .ipynb a .py
+jupyter nbconvert --to script archivo.ipynb
+
+# De .py a .ipynb (requiere nbformat y jupytext)
+jupytext --to notebook archivo.py
+
