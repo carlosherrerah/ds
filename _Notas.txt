@@ -4,3 +4,19 @@ jupyter nbconvert --to script archivo.ipynb
 # De .py a .ipynb (requiere nbformat y jupytext)
 jupytext --to notebook archivo.py
 
+if       M3_1
+ciclos   M3_2
+
+sys.path.append(os.path.join(os.path.dirname(__file__), '..', '..'))  #  a nivel proyecto
+
+import moduleDir.module2 as module2
+from moduleDir import modulePrg
+rutaRel = './PE2_NetAcad\\moduleDir'
+sys.path.append(rutaRel)
+
+print("Partida: ", os.getcwd())      # Saber de donde partimos
+
+# Paquetes instalado hasta el momento
+# c:\> pip list
+
+M3_0
